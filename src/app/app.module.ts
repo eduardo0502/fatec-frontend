@@ -7,6 +7,9 @@ import { LoginComponent } from './login/login.component';
 import { PagesComponent } from './pages/pages.component';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { CabezeraComponent } from './cabezera/cabezera.component';
+import { PrincipalComponent } from './principal/principal.component';
+import { CarruselComponent } from './carrusel/carrusel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { HeaderComponent } from './shared/header/header.component';
     LoginComponent,
     PagesComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    CabezeraComponent,
+    PrincipalComponent,
+    CarruselComponent
   ],
   imports: [
     BrowserModule
