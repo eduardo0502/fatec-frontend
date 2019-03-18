@@ -10,6 +10,9 @@ import { HeaderComponent } from './shared/header/header.component';
 import { CabezeraComponent } from './cabezera/cabezera.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { CarruselComponent } from './carrusel/carrusel.component';
+import { MenuComponent } from './menu/menu.component';
+import { RegistroComponent } from './registro/registro.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { CarruselComponent } from './carrusel/carrusel.component';
     HeaderComponent,
     CabezeraComponent,
     PrincipalComponent,
-    CarruselComponent
+    CarruselComponent,
+    MenuComponent,
+    RegistroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
